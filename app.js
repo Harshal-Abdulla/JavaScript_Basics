@@ -1,41 +1,24 @@
-// Data types
-// Primitive data types - float, number etc
-// semi colon is not neccesasry
-var Name = "Harshal"
-Name = "Abdulla"
-console.log(Name)
+//const is like let but it make it constant and cant vary the value/overwrite
+//opeartors
+const a =2
+const b = 15
+//arithmetic operators
+console.log(a+b)
 
-//it overwrites the first one
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a%b) //reminder
+console.log(a ** b) //exponent = 2^15
+//assignment operators
+let c = 0
 
-//either a var or let to declare a variable
-
-let age = 19;
-console.log(age)
-
-console.log(typeof age)
-
-let name = 'asdgkj'
-console.log(typeof name)
-//everything in a single quotes is a string
-
-let brand
-console.log(brand)
-//undefined is when no value is given to the variable
-
-
-let isTrue = true
-console.log(isTrue)
-
-
-
-// Non primitive data type
-
-let arr = [1,2,3,45,55]
-console.log(arr)
-arr.push('value')
-arr.unshift(false) //pushes to the beginning
-console.log(arr)
-console.log(typeof arr)
+c++ //c+1
+c += 7 //increment by 7
+c *=5 //multiply by 5
+c /= 3  //divide by 3
+//line by line interpretation occurs so it overwrites the value before that line
+console.log(c)
 
 
 
