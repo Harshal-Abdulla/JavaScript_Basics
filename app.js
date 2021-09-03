@@ -1,31 +1,22 @@
-//Logical operators
+// conditional statements
 
-const a = 10
-const b = 12
-const c = 12
+//checks the num is even or do
+//even do this
+//odd do that
 
-console.log(b == c)
-console.log(b != c)
+const a = 10.04
 
-//and operator
-
-console.log(false && false) 
-console.log(true && false)
-console.log(true && true)
-
-//or operator
-
-console.log(true || true)
-console.log(false || false)
-console.log(true || false)
-console.log(true || true)
-
-
-console.log(c<a || a>b)
-
-
-
-
-
-
-
+if(typeof a === 'number'){
+    if(a===0){console.log("Number is Zero")}
+    if(a%2===0){ //=== must be used so if the value is a string use a condition to know whether it is string or not
+        console.log("Number is even")
+    
+    }
+    else{
+        console.log("Number is odd")
+    }
+}else{
+    console.error("Not a number")
+}
+//this will fail for floats
+//if we use else if the next block is not computed so 2 ifs is used
