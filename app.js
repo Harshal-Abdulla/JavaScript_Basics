@@ -1,13 +1,31 @@
-//comparison operators
+//Logical operators
 
-const a = 12
-const b = 7
+const a = 10
+const b = 12
+const c = 12
 
-console.log(a<b)
-console.log(a>b)
-console.log(a==b)
-console.log(a===b)
+console.log(b == c)
+console.log(b != c)
 
-//>=, <=, 
-// === : a===b , it first compares the values and  compares the types of data(number and string, etc) here logic gate and is used and boolean is returned
+//and operator
+
+console.log(false && false) 
+console.log(true && false)
+console.log(true && true)
+
+//or operator
+
+console.log(true || true)
+console.log(false || false)
+console.log(true || false)
+console.log(true || true)
+
+
+console.log(c<a || a>b)
+
+
+
+
+
+
 
