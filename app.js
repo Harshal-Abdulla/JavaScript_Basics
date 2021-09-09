@@ -1,9 +1,12 @@
-const button = document.querySelector('button')
-const body = document.querySelector('body')
+//watch day 18 for fun ctions
+const rock = document.querySelector('#rock')
+const paper = document.querySelector('#paper')
+const scissor = document.querySelector('#scissor')
 
-// button.addEventListener('click', () => {console.log('you clicked me')})
-//addEventListener will add events lik if we click say the console shows you clicked you can make it hover, double click etc ctrl and space shows  many is there
-
-button.addEventListener('dblclick', ()=> {
-    body.classList.toggle('dark')
-})
+const handler = (action)=>{
+    console.log("You clicked "+action)
+}
+  
+rock.addEventListener('click', () => {handler('rock') })
+paper.addEventListener('click', () => {handler('paper') })
+scissor.addEventListener('click', () => {handler('scissor') }) 
